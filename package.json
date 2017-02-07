@@ -1,0 +1,22 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Ernest_Jones/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Ernest_Jones/chat/issues"
+  },
+  "homepage": "https://gitlab.com/Ernest_Jones/chat#README",
+  "description": "",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
