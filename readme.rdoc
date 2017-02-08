@@ -1,0 +1,16 @@
+= MindMap
+
+School project The objective was to create a Mindmap, a tool that can be used for brainstorming. The UI is missing as the drag & drop functionality. Run index.html and double click in the grey zone. Double click on an element to create a sub element. The label must be filled or else let empty by clicking outside the element.
+
+== Contributing to MindMap
+
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
+* Fork the project.
+* Start a feature/bugfix branch.
+* Commit and push until you are happy with your contribution.
+
+== Copyright
+
+Copyright (c) 2016 baptiste.garcin@gmail.com. See LICENSE.txt for
+further details.
