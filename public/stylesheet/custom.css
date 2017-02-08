@@ -1,0 +1,13 @@
+.window {
+        height: 300px;
+        border: 1px solid black;
+        overflow: scroll;
+    }
+
+.red {
+    background-color: #FF6F7D;
+}
+
+.blue {
+    background-color: #AFAFAF;
+}

@@ -1,0 +1,41 @@
+<h2>Bienvenue sur le chat</h2>
+
+<!--
+ /\___/\
+(  o o  )
+/   *   \
+\__\_/__/ meow!
+  /   \
+ / ___ \
+ \/___\/
+
+-->
+
+
+<div class="container">
+    <div class="window col-lg-6">
+        <div ng-repeat="message in messages">
+            <div ng-if="message.author == 'System'">
+                <div>
+                    <p> {{message.date | date:'H:mm'}} <strong>{{message.author}}</strong> : {{message.content}}</p>
+                </div>
+            </div>
+
+            <div ng-if="message.author == username && message.author != 'System'">
+                <div class="red">
+                    <p> {{message.date | date:'H:mm'}} <strong>{{message.author}}</strong> : {{message.content}}</p>
+                </div>
+            </div>
+
+            <div ng-if="message.author != username && message.author != 'System'">
+                <div class="blue">
+                    <p > {{message.date | date:'H:mm'}} <strong>{{message.author}}</strong> : {{message.content}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <input ng-model="postData.input" type="text" placeholder="your message"/>
+        <button type="submit" ng-click="send(postData)">Submit</button>
+    </div>
+</div>

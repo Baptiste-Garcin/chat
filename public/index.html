@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="/stylesheet/custom.css"/>
+    <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap.css"/>
+
     <meta charset="utf-8">
     <base href="/">
     <title>Chat</title>
 </head>
-<body ng-app="Chat">
+<body ng-app="Chat" ng-cloak>
     <h1>Bl</h1>
     <div ng-view></div>
 
     <script src="./libs/angular/angular.min.js"></script>
     <script src="./libs/angular-route/angular-route.min.js"></script>
     <script src="./javascript/angApp.js"></script>
+    <script src="./javascript/controller/maincontroller.js"></script>
+    <script src="./javascript/factory/socket.factory.js"></script>
+    <script src="/libs/angular-socket-io/socket.js"></script>
+    <script src="/libs/socket.io-client/dist/socket.io.js"></script>
+    <script src="/libs/jquery/dist/jquery.js"></script>
+
+    <script src="/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>

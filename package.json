@@ -17,6 +17,8 @@
   "homepage": "https://gitlab.com/Ernest_Jones/chat#README",
   "description": "",
   "dependencies": {
-    "express": "^4.14.1"
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "socket.io": "^1.7.2"
   }
 }
