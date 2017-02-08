@@ -1,0 +1,7 @@
+= Chat
+
+== Install
+
+First run "npm install" and "bower install".
+To start the program run "node app.js"
+Magic happen on localhost:3000
