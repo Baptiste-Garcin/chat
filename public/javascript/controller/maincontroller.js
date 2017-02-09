@@ -23,7 +23,11 @@ app.controller('MainController', ['$http', '$location', '$rootScope','$scope', '
 
     $scope.send = function(postData)
     {
-        SocketService.emit('newMessage', {content:postData.input, author:$rootScope.username, date:new Date()});
+        if(postData.input !== '')
+        {
+            SocketService.emit('newMessage', {content:postData.input, author:$rootScope.username, date:new Date()});
+            $scope.postData.input = '';
+        }
     };
 
     $scope.login = function(postData)
