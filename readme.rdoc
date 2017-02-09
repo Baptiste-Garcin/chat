@@ -1,0 +1,7 @@
+= Chat
+
+== Install
+
+First run 'npm install' and 'bower install'.
+Run node app.js to launch the chat.
+Magic happen on 'localhost:3000'
