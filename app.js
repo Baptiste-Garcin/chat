@@ -25,6 +25,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 chatIo.listen(server);
 chatIo.connection();
 
-.listen(process.env.PORT || 5000, function() {
+server.listen(process.env.PORT || 3000, function() {
   console.log("Lock & load");
 })
