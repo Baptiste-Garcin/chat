@@ -12,6 +12,7 @@ var server = http.createServer(app);
 var user = [];
 
 
+app.use('/modules', express.static(__dirname + '/node_modules/'));
 app.use(express.static(__dirname + '/public'));
 
 app.get("*", function(req, res) {

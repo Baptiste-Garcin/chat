@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "startDev": "./node_modules/.bin/nodemon"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,18 @@
   "homepage": "https://gitlab.com/Ernest_Jones/chat#README",
   "description": "",
   "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-socket-io": "^0.7.0",
     "body-parser": "^1.16.0",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.1",
-    "socket.io": "^1.7.2"
+    "jquery": "^3.2.1",
+    "nodemon": "^1.11.0",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
