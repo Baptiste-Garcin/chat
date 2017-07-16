@@ -1,9 +1,10 @@
 # Chat
 
+#### Details
+A simple chat application made with angular and socketIo
 
-## Install
-
+#### Install
 First run 'npm install' and 'bower install'. Run 'node
 app.js' to launch the chat. Magic happens on 'localhost:3000'
 
-Try the live demo [here](https://damp-anchorage-53305.herokuapp.com/index)
+#### [Live Demo](https://damp-anchorage-53305.herokuapp.com/index)
